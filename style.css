@@ -64,7 +64,7 @@ body {
   .presentacion {
     width: 100%;
     height: 100vh;
-    background-image: url("./assets/HTMLimage.avif");
+    background-image: url("./ASSETS/HTMLimage.avif");
     background-size: cover;
     background-position: center;
   }

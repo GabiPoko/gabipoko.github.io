@@ -551,3 +551,18 @@ body {
         color: var(--color-secundario);
     }
 } 
+@media (max-width: 320px) {
+  /* Ajustes para pantallas muy pequeñas */
+}
+
+@media (min-width: 321px) and (max-width: 767px) {
+  /* Ajustes para móviles */
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Ajustes para tabletas */
+}
+
+@media (min-width: 1024px) {
+  /* Ajustes para computadoras de escritorio */
+}

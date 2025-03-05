@@ -213,6 +213,8 @@ body {
     font-size: var(--sub-titulo-tamanio);
     padding: 1rem;
     margin-bottom: 40px;
+    margin-top: 20px;
+    
   }
   .seccion_descripcion__parrafo {
     font-size: var(--texto-tamanio);
@@ -278,17 +280,6 @@ body {
   }
   .enlaces__item {
     list-style: none;
-    margin: 5px; 
-    padding: 10px 20px;
-    border: 2px solid #3498db;
-    border-radius: 25px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    color: #3498db;
-  }
-
-  .enlaces__item:hover {
-    background-color: #3498db; 
-    color: #ffffff; 
   }
 
   .enlaces__enlace {
@@ -464,8 +455,9 @@ body {
 .pie_de_pagina{
     height: max-content;
     justify-content: flex-start;
+    justify-content: stretch; 
+    width: 100%;
 }
-
 @media (max-width: 992px){
     .presentacion__contenedor_info{
      background: linear-gradient (90deg, var(--fondo-primario-transparente)40%, 

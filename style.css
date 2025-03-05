@@ -50,6 +50,7 @@ body {
     justify-content: space-around;
     align-items: center;
     background-color: transparent;
+    padding-top: 30px;
   }
   .navegacion__enlace {
     text-decoration: none;
@@ -64,7 +65,7 @@ body {
   .presentacion {
     width: 100%;
     height: 100vh;
-    background-image: url("./ASSETS/HTMLimage.avif");
+    background-image: url("./ASSETS/fondo_presentacion.jpg");
     background-size: cover;
     background-position: center;
   }
@@ -277,7 +278,19 @@ body {
   }
   .enlaces__item {
     list-style: none;
+    margin: 5px; 
+    padding: 10px 20px;
+    border: 2px solid #3498db;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: #3498db;
   }
+
+  .enlaces__item:hover {
+    background-color: #3498db; 
+    color: #ffffff; 
+  }
+
   .enlaces__enlace {
     font-size: var(--enlaces-tamanio);
     font-weight: var(--texto-peso-grueso);
